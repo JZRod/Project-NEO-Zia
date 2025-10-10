@@ -11,7 +11,7 @@ This PCB is designed to accept power from an external 12 volt input. It is also 
 > **NEVER BRIDGE BOTH JUMPERS AT ONCE**
 ### Wiring
 #### External Power Input
-The external power input can accept volatages between 5 and 12 volts. When using the external power input fuse it at a maximum of 5 amps.
+The external power input can accept volatages between 5 and 12 volts. When using the external power input fuse it at a maximum of 5 amps.  
 ![EXTPWRPINOUT](assets/EXT%20Pinout.png)
 #### PWM Connections
 There are two PWM connections on the board. One is a PWM output and one is an input. The output connecter outputs a PWM signal after it has passed through all LED's. If you want to power the board with the PWM connection refer to the configuration section of this doccument.  
