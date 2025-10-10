@@ -8,7 +8,12 @@
 	)
 	(paper "A3")
 	(title_block
-		(date "2025-05-08")
+		(title "Project NEO Zia")
+		(date "5/12/2025")
+		(rev "Original")
+		(comment 1 "Started on 4/19/2025")
+		(comment 2 "What's left after my hard drive died")
+		(comment 3 "DO NOT USE")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -25980,6 +25985,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "For more info visit: https://github.com/JZRod/Project-NEO-Zia"
+		(at 302.725 164.7 0)
+		(layer "B.SilkS")
+		(uuid "8e764d56-b41a-4c55-99ea-4ebe531db5c8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment

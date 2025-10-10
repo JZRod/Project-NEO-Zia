@@ -8,7 +8,9 @@
 	)
 	(paper "A3")
 	(title_block
-		(date "2025-05-08")
+		(title "Project NEO Zia")
+		(date "5/20/2025")
+		(rev "4")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -116,9 +118,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(net 0 "")
@@ -30088,6 +30090,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "For more info visit: https://github.com/JZRod/Project-NEO-Zia"
+		(at 301.575 131.175 0)
+		(layer "B.SilkS")
+		(uuid "d8cad2e3-fac0-4031-90b0-12509cf77f5c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Board Thickness needs to be .7mm"

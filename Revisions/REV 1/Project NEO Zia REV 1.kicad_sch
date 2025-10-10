@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "9a427594-819f-4806-9b43-e01e827bed3b")
 	(paper "A3")
+	(title_block
+		(title "Project NEO Zia")
+		(date "5/16/2025")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "CustomParts:1655"
 			(pin_names

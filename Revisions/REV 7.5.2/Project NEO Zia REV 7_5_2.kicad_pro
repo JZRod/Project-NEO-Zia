@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.27,
-          "width": 1.905
+          "height": 10.84,
+          "width": 7.62
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -468,7 +468,7 @@
     ]
   },
   "meta": {
-    "filename": "Project NEO Zia.kicad_pro",
+    "filename": "Project NEO Zia REV 7_5_2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Joshua Rodriguez/Downloads/NEO Zia/",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Project NEO Zia.step",

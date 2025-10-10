@@ -468,7 +468,7 @@
     ]
   },
   "meta": {
-    "filename": "Project NEO Zia.kicad_pro",
+    "filename": "Project NEO Zia REV 7_5_1.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -504,7 +504,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/Joshua Rodriguez/Downloads/NEO Zia/",
+      "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Project NEO Zia.step",

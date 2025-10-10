@@ -8,7 +8,7 @@
 	)
 	(paper "A3")
 	(title_block
-		(date "2025-05-08")
+		(date "5/26/2025")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -31091,6 +31091,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "For more info visit: https://github.com/JZRod/Project-NEO-Zia"
+		(at 231.8 226.9 270)
+		(layer "B.SilkS")
+		(uuid "00e5a950-3f51-48f2-87d7-5ec0fd88b289")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Board Thickness needs to be .7mm"

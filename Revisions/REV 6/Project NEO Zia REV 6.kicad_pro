@@ -454,7 +454,7 @@
     ]
   },
   "meta": {
-    "filename": "Project NEO Zia.kicad_pro",
+    "filename": "Project NEO Zia REV 6.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -493,7 +493,7 @@
       "plot": "./",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Project NEO Zia REV 6.step",
       "svg": "",
       "vrml": ""
     },

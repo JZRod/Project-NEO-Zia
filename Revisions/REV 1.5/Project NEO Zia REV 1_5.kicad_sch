@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Project NEO Zia")
-		(date "2025-5-17")
+		(date "5/17/2025")
 		(rev "1.5")
 	)
 	(lib_symbols

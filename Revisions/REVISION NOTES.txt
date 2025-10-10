@@ -73,6 +73,10 @@ REV 7.5.2 - 10/7/25
 - Merged F.Silkscreen to F.UVPrint
 	# All silkscreens/illustrations are on F.Silkscreen
 # Everything else is the same as REV 7.5.1
+- Added "For more info visit: https://github.com/JZRod/Project-NEO-Zia" to all versions
+	# backported to all pre-existing versions
+- Fixed voltage regulator tab being shorted to GND
+	# Backported to all relevant rev's
  _________________________________________________________________________________________________
 |Extra Info:                                                                                      |
 |- .kicad_pcb refers to the KiCad PCB file                                                        |

@@ -9,7 +9,7 @@
 	(paper "A3")
 	(title_block
 		(title "Project NEO Zia")
-		(date "2025-05-08")
+		(date "5/17/2025")
 		(rev "1.5")
 	)
 	(layers
@@ -25163,6 +25163,19 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "For more info visit: https://github.com/JZRod/Project-NEO-Zia"
+		(at 305.825 167.2 0)
+		(layer "B.SilkS")
+		(uuid "8f74b2ed-bb89-4ad5-bcae-0bb9e5933d70")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
