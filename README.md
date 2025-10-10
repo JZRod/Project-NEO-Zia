@@ -23,7 +23,7 @@ There are two PWM connections on the board. One is a PWM output and one is an in
 On the newest revisions the 4 center holes are 3/16 and sized for 10/24 screws. Each revision has a STEP file in it's folder.  
 > For all revisions, I would suggest that you check the mounting hole spacing and size in the CAD model
 ## Manufacturing
-If you want to make this board you can either use the pre-made gerber files or customize them using the KiCad project files. All these files are available in the revision folders.
+If you want to make this board you can either use the pre-made gerber files or customize them using the KiCad project files. All these files are available in the revision folders. The latest version can also be found on the releases page.
 ### Pre-Made Gerbers
 In each revision folder there are zip files. These are the gerber's and you should be able to drop them straight in you PCB manufacturing service.  
 > Some PCB manufacturing services will accept the bare KiCad PCB file.   
