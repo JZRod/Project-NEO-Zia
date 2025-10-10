@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Project NEO Zia.kicad_pro",
+    "filename": "Project NEO Zia REV 1_5.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -486,10 +486,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "New folder/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Project NEO Zia REV 1_5.step",
       "svg": "",
       "vrml": ""
     },
