@@ -28,7 +28,7 @@ More information about these NeoPixels can be found in their [datasheet](https:/
 #### NeoPixel Layout
 The drawing below shous the pattern in which the NeoPixels are wired  
 The PWM Input is connected to D68 and goes to each NeoPixel in a decreasing order. When the signal reaches D1 it is connected to the PWM Output connector.  
-![NEO_ZIA_PWM_Layout](assets/NEO Zia PWM Layout.jpg)
+![NEOZIAPWMLayout](assets/NEO%20Zia%20PWM%20Layout.jpg)
 The black line starts at D68 and goes around the board in the same way the PWM signal is routed until it reaches D1.
 > The DATA Out pin of D1 is wired to Pin 3 of the PWM Output Connector
 ### Mounting
