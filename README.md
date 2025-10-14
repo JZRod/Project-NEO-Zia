@@ -1,7 +1,6 @@
 # Project NEO Zia
 This circut board is intended to make the New Mexico Zia out of LED's 
 There is a [PDF](assets/README.pdf) version of this doccument in the assets folder
-> Not updated as of 10/14/2025
 ![ZIA PCB](assets/NEO%20Zia%20Render.jpg)
 ## Using the board
 This section goes over information on how to configure, wire, and mount the board. 
