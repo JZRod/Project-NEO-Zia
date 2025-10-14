@@ -28,8 +28,10 @@ This board uses a standard NeoPixel PWM signal. The PWM output connector is conn
 More information about these NeoPixels can be found in their [datasheet](https://cdn-shop.adafruit.com/product-files/1655/SKC6812RV__12VOP0274E_REV.A1_EN%2812%29.pdf)
 #### NeoPixel Layout
 The drawing below shous the pattern in which the NeoPixels are wired  
-The PWM Input is connected to D68 and goes to each NeoPixel in a decreasing order. When the signal reaches D1 it is connected to the PWM Output connector.
-![NEO_ZIA_PWM_Layout](assets/NEO Zia PWM Layout)
+The PWM Input is connected to D68 and goes to each NeoPixel in a decreasing order. When the signal reaches D1 it is connected to the PWM Output connector.  
+![NEO_ZIA_PWM_Layout](assets/NEO Zia PWM Layout.jpg)
+The black line starts at D68 and goes around the board in the same way the PWM signal is routed until it reaches D1.
+> The DATA Out pin of D1 is wired to Pin 3 of the PWM Output Connector
 ### Mounting
 On the newest revisions the 4 center holes are 3/16 and sized for 10/24 screws. Each revision has a STEP file in it's folder.  
 > For all revisions, I would suggest that you check the mounting hole spacing and size in the CAD model
