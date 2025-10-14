@@ -1,6 +1,7 @@
 # Project NEO Zia
-This circut board is intended to make the New Mexico Zia out of LED's  
-These is a PDF and DOCX version of this doccument in the assets folder
+This circut board is intended to make the New Mexico Zia out of LED's 
+There is a [PDF](assets/README.pdf) version of this doccument in the assets folder
+> Not updated as of 10/14/2025
 ![ZIA PCB](assets/NEO%20Zia%20Render.jpg)
 ## Using the board
 This section goes over information on how to configure, wire, and mount the board. 
@@ -20,6 +21,15 @@ There are two PWM connections on the board. One is a PWM output and one is an in
 >- The PWM output connector outputs whatever voltage it is provided through the PWM input  
 >- The PWM output **does not touch the voltage regulator on the board at all**  
 >- The pinout of these connectors is also labeled on the board  
+### Programming
+This board uses a standard NeoPixel PWM signal. The PWM output connector is connected to the DATA OUT pin on the last NeoPixel in the chain. The PWM input connector is connected to the DATA IN pin on the first NeoPixel in the chain. 
+> The DATA IN/OUT pins do not have any protection on them  
+>   The pinout for the PWM In/Out connecters can be seen in the Wiring section of this document
+More information about these NeoPixels can be found in their [datasheet](https://cdn-shop.adafruit.com/product-files/1655/SKC6812RV__12VOP0274E_REV.A1_EN%2812%29.pdf)
+#### NeoPixel Layout
+The drawing below shous the pattern in which the NeoPixels are wired  
+The PWM Input is connected to D68 and goes to each NeoPixel in a decreasing order. When the signal reaches D1 it is connected to the PWM Output connector.
+![NEO_ZIA_PWM_Layout](assets/NEO Zia PWM Layout)
 ### Mounting
 On the newest revisions the 4 center holes are 3/16 and sized for 10/24 screws. Each revision has a STEP file in it's folder.  
 > For all revisions, I would suggest that you check the mounting hole spacing and size in the CAD model
