@@ -1,11 +1,11 @@
- ________________________________________________________________
-|Key:								 |
-|REV# (Revision Number)- (Completion date, Month/Day/Year)       |
-|- Notes describing changes go here.				 |
-|- Parts always start with the brand then the part number.       |
-|	# Adafruit (Brand) 1655 (Part Number)			 |
-|# Any Comments made on the revision                             |
-|	# Comments for a specific item go under the item         |
+ ________________________________________________________________        ________________________
+|Key:								 |      |Reading REV #'s         |
+|REV# (Revision Number)- (Completion date, Month/Day/Year)       |      |        REV x.x         |
+|- Notes describing changes go here.				 |      |            ^ ^         |
+|- Parts always start with the brand then the part number.       |      |            | |         |
+|	# Adafruit (Brand) 1655 (Part Number)			 |      | Major Change |         |
+|# Any Comments made on the revision                             |      |         Minor Change   |
+|	# Comments for a specific item go under the item         |      |________________________|
 |# Extra info that might be helpful is at the bottom of document |
 |________________________________________________________________|
 
@@ -77,6 +77,15 @@ REV 7.5.2 - 10/7/25
 	# backported to all pre-existing versions
 - Fixed voltage regulator tab being shorted to GND
 	# Backported to all relevant rev's
+
+REV 8 - 2/13/26
+- Added 5V copper plane in center for TI LM1084 voltage regulator
+- Rearranged filter capacitors for voltage regulator and some NeoPixel's
+- Added REV marker to board
+	# On Rear Silkscreen
+- Added Jumper Config. Table
+	# On Rear Silkscreen
+- Moved Designer name to rear silkscreen
  _________________________________________________________________________________________________
 |Extra Info:                                                                                      |
 |- .kicad_pcb refers to the KiCad PCB file                                                        |
@@ -87,4 +96,5 @@ REV 7.5.2 - 10/7/25
 |- User.Comments and User.Drawings both refer to both the note layers in the PCB editor		  |
 |- F.UVPrint and B.UVPrint (Added in REV 7) are intended for UV Print drawings			  |
 |	# Can also be a render for use by PCBWay						  |
+|       # Are being phased out as of REV 8							  |
 |_________________________________________________________________________________________________|
