@@ -43,7 +43,6 @@ In each revision folder there are zip files. These are the Gerber's, and you sho
 ### Customization  
 If you want to customize this board each revision folder has a KiCad project file, a KiCad PCB File, and a KiCad Schematic file. 
 > I suggest you use KiCad 9 or higher.  
->**Read the [REVISION NOTES.txt](Revisions/REVISION$20NOTES.txt) for info on what changed between each revision**  
+>**Read the [REVISION NOTES.txt](Revisions/REVISION%20NOTES.txt) for info on what changed between each revision**  
 ## Credit  
-If you customize your board, please leave the designer's name and a link to the github repo on the board  
 **Designed by Josh Rodriguez for FIRST Robotics Competition Team 1164 Project NEO**
