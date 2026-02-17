@@ -1,11 +1,11 @@
  ________________________________________________________________        ________________________
-|Key:								 |      |Reading REV #'s         |
+|Key:								                             |      |Reading REV #'s         |
 |REV# (Revision Number)- (Completion date, Month/Day/Year)       |      |        REV x.x         |
-|- Notes describing changes go here.				 |      |            ^ ^         |
+|- Notes describing changes go here.				             |      |            ^ ^         |
 |- Parts always start with the brand then the part number.       |      |            | |         |
-|	# Adafruit (Brand) 1655 (Part Number)			 |      | Major Change |         |
+|	# Adafruit (Brand) 1655 (Part Number)			             |      | Major Change |         |
 |# Any Comments made on the revision                             |      |         Minor Change   |
-|	# Comments for a specific item go under the item         |      |________________________|
+|	# Comments for a specific item go under the item             |      |________________________|
 |# Extra info that might be helpful is at the bottom of document |
 |________________________________________________________________|
 
@@ -92,9 +92,9 @@ REV 8 - 2/13/26
 |- .kicad_sch refers to the KiCad Schematic file                                                  |
 |- .kicad_pro refers to the Kicad Project file                                                    |
 |# If a Revision Folder has both a PCB and Schematic File KiCad will auto generate a project file |
-|	# This is not on purpose it just happens when both file types are together                |
-|- User.Comments and User.Drawings both refer to both the note layers in the PCB editor		  |
-|- F.UVPrint and B.UVPrint (Added in REV 7) are intended for UV Print drawings			  |
-|	# Can also be a render for use by PCBWay						  |
-|       # Are being phased out as of REV 8							  |
+|	# This is not on purpose it just happens when both file types are together                    |
+|- User.Comments and User.Drawings both refer to both the note layers in the PCB editor		      |
+|- F.UVPrint and B.UVPrint (Added in REV 7) are intended for UV Print drawings			          |
+|	# Can also be a render for use by PCBWay						                              |
+|       # Are being phased out as of REV 8							                              |
 |_________________________________________________________________________________________________|
